@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logoapps" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            >
+        <ImageView
+            android:layout_width="197dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:src="@drawable/welcome" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="50dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/idkapal"
+                    android:src="@drawable/button_kapal" />
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/idhistory"
+                    android:src="@drawable/button_history" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
